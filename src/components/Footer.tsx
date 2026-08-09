@@ -18,8 +18,12 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-3.5">
             <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => setActiveView('home')}>
-              <div className="bg-amber-500 p-2 rounded-xl text-emerald-950 font-bold shadow-md">
-                <ShieldCheck className="w-5 h-5" />
+              <div className="w-12 h-12">
+                  <img
+                    src="/kurban.png"
+                    alt="Kurban Nasional"
+                    className="w-full h-full object-contain"
+                  />
               </div>
               <div>
                 <span className="font-extrabold text-base text-white font-serif tracking-tight">KURBAN NASIONAL</span>

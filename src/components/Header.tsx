@@ -54,8 +54,12 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-between gap-6">
           {/* Logo & Branding */}
           <div className="flex items-center gap-2 sm:gap-3 cursor-pointer group min-w-0" onClick={() => setActiveView('home')}>
-            <div className="bg-emerald-900 p-2 sm:p-2.5 rounded-xl shadow-xs text-amber-400 flex items-center justify-center font-bold group-hover:bg-emerald-800 transition-all shrink-0">
-              <ShieldCheck className="w-5 h-5 sm:w-6 sm:h-6" />
+            <div className="w-12 h-12">
+                <img
+                  src="/kurban.png"
+                  alt="Kurban Nasional"
+                  className="w-full h-full object-contain"
+                />
             </div>
             <div className="min-w-0">
               <div className="flex items-center gap-1.5 flex-wrap">
