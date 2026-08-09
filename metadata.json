@@ -1,0 +1,6 @@
+{
+  "name": "Kurban Nasional",
+  "description": "Marketplace Kurban Nasional Indonesia - Platform digital terintegrasi pusat data, transaksi, dan transparansi distribusi kurban nasional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
